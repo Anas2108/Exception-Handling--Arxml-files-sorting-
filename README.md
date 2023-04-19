@@ -29,12 +29,13 @@ The program should perform the following steps:
 
 ## Files Description
 
-• ArxmlSorter.java: This is the main class for the programe.
+• ContainersSorting.java: Contain the main class for the programe , “NotVaildAutosarFileException” and “EmptyAutosarFileException”
+
 
 • Empty.arxml: This is an empty ARXML file for testing the empty file case.
 
 • Normal.arxml: This is a normal ARXML file for testing the normal case.
 
-• incorrectFileExtenstion.txt: This is a text document for testing the extension case.
+• notValidExt.xml: This is a xml document not arxml for testing the extension case.
 
-• testCases.bat: This is a batch file that runs your program with different input files for testing all cases.
+• CasesTest.bat : This is a batch file that runs your program with different input files for testing all cases.
